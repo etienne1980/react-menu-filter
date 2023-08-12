@@ -331,6 +331,14 @@ ul {
 }
 
 
+.read-more{
+  border: transparent;
+  cursor: pointer;
+  background-color: transparent;
+  color: var(--primary-500);
+  font-weight: 600;
+}
+
 /* make sure the card does not span more that 25 rem */
 /* .menu-item {
   max-width: 25rem;
