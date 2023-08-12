@@ -42,6 +42,8 @@ const App = () => {
     <main>
      <section className="menu">
 
+        <a href="https://my-work-expression.netlify.app/react#project">Back to React Project</a>
+
         <Title text='our menu'/>
 
         <Categories category={category} showCategory={showCategory}/>
