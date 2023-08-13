@@ -367,3 +367,24 @@ ul {
     grid-template-columns: repeat(3, 1fr);
   }
 } */
+
+
+/* bc */
+
+.bc {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: var(--black);
+  margin-block-end: 2rem;
+}
+
+.bc a {
+  color: var(--black);
+  display: flex;
+}
+
+.bc span {
+  color: var(--primary-600);
+}
+

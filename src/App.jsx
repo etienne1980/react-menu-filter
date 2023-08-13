@@ -4,6 +4,8 @@ import MenuList from './components/MenuList';
 import Title from './components/Title';
 import menu from './data';
 import Categories from './components/Categories';
+import Breadcrumbs from './components/Breadcrumbs';
+
 
 
 // set up unique menu categories (using set object)
@@ -42,7 +44,7 @@ const App = () => {
     <main>
      <section className="menu">
 
-        <a href="https://my-work-expression.netlify.app/react#project">Back to React Project</a>
+       <Breadcrumbs/>
 
         <Title text='our menu'/>
 
